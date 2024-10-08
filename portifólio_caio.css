@@ -1,0 +1,79 @@
+/* Estilo geral do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alteração para alinhar verticalmente */
+    min-height: 100vh;
+}
+
+/* Estilo do contêiner de perfil */
+.Arlen {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Título do nome */
+h1 {
+    font-size: 2.5rem;
+    color: #fffefe;
+    margin-bottom: 10px;
+}
+
+/* Foto de perfil */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+
+/* Estilo da biografia */
+h3, h4 {
+    text-align: center;
+    margin: 10px 20px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Estilo dos links */
+a {
+    display: flex;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito hover nos links */
+a:hover {
+    background-color: #555;
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3, h4 {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
+ 
