@@ -1,0 +1,38 @@
+header {
+    background-color: #4A90E2; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+h1 {
+    font-size: 36px; 
+    margin: 0; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+p {
+    font-size: 18px; 
+    margin: 10px 0; 
+}
+
+ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+ul li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+ul li a {
+    color: #FFD700; 
+    text-decoration: none; 
+    font-size: 20px; 
+}
+
+ul li a:hover {
+    text-decoration: underline; 
+}
