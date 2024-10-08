@@ -28,7 +28,7 @@ ul li {
 }
 
 ul li a {
-    color: #FFD700; 
+    color: #000000; 
     text-decoration: none; 
     font-size: 20px; 
 }
@@ -36,3 +36,54 @@ ul li a {
 ul li a:hover {
     text-decoration: underline; 
 }
+
+.Projeto1, .Projeto2, .Projeto3 {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Projeto1 h1, .Projeto2 h1, .Projeto3 h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.Projeto1 h3, .Projeto2 h3, .Projeto3 h3 {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.Contatos {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Contatos ul {
+    padding-left: 20px;
+}
+
+.Contatos li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.Contatos a {
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+.Contatos a:hover {
+    text-decoration: underline;
+}
+
