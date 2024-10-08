@@ -1,0 +1,36 @@
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(228, 219, 166);
+}
+h3{
+    color: rgb(228, 219, 166);
+}
+
+body{
+    background-image:url(https://blenderartists.org/uploads/default/original/4X/e/1/b/e1b7cc597f4d71d2e4cf05b64f0bbc988c0426fa.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+}
+button{
+    color: black;
+    background-color: rgb(228, 219, 166);
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border: 2px;
+    align-items: center;
+    transition: 0.5s;
+    text-decoration: black;
+}
