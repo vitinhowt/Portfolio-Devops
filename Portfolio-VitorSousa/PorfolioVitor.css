@@ -1,0 +1,89 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #f0f0f0; 
+    background: #2e004f;
+    background-image: url("https://wallpapers.com/images/hd/black-stars-iphone-fxgc2n6n8c6as1gr.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    background-color: #191970; /* Azul Escuro */
+    color: white; /* branco*/
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .about {
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%;
+    max-width: 800px; /* Limita a largura máxima */
+  }
+  
+  img.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; /* Mantém a altura consistente */
+    border: 4px solid #ffffff;
+    object-fit: cover;
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify; /* Justifica o texto */
+  }
+  
+  .social-links {
+    margin: 20px auto;
+    max-width: 800px; /* Limita a largura máxima */
+  }
+  
+  .social-links h2 {
+    margin-bottom: 10px;
+  }
+  
+  .social-links a {
+    margin: 0 15px;
+    color: #ffffe0;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s; /* Transição suave ao passar o mouse */
+  }
+  
+  .social-links a:hover {
+    color: #ffffff; /* Muda a cor ao passar o mouse */
+    text-decoration: underline;
+  }
+  
+  h2 {
+    color: #483d8b; /* Roxo suave para os títulos */
+    font-size: 28px; /* Aumenta o tamanho do título */
+    margin-top: 20px; /* Espaço acima dos títulos */
+    margin-bottom: 10px; /* Espaço abaixo dos títulos */
+  }
+  
+  /* Adiciona um estilo ao rodapé, se necessário */
+  footer {
+    background-color: rgba(61, 0, 102, 0.9);
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
